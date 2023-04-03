@@ -17,15 +17,17 @@ html {
 
 body {
     margin: 0;
-    position: relative;
 }
 
 .backgroundImage {
+    position: relative;
     width: 100%;
-    height: 100%;
+}
+
+.backgroundImage img {
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     filter: brightness(0.5);
     position: absolute;
     z-index: -1;
@@ -57,9 +59,13 @@ a {
 
 //HEADER STYLING//
 
+header nav {
+    padding: 1.25rem;
+}
+
 header nav img {
-    width: 240px;
-    padding: 0.75rem 2.25rem;
+    width: 190px;
+    padding: 0 1rem;
 }
 
 //SECTION STYLING//
@@ -72,11 +78,12 @@ section {
 //FORM STYLING//
 
 .loginContainer {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.75);
     max-width: 420px;
     max-height: 660px;
     padding: 3.7rem 4.25rem;
     border-radius: 4px;
+    margin-bottom: 5.5rem;
 }
 
 h1 {
@@ -148,12 +155,18 @@ fieldset {
 //FOOTER STYLING//
 
 footer {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.75);
     font-weight: lighter;
 }
 
 footer .wrapper {
-    padding: 1rem 0;
+    padding: 1rem 0 3rem 0;
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: 0.5rem;
 }
 
 footer nav ul {
@@ -163,14 +176,36 @@ footer nav ul {
 
 footer li {
     width: 25%;
-    padding: 0.5rem 0;
+    padding: 0.4rem 0;
     align-self: flex-start;
 
 }
 
 footer a {
     color: rgb(179, 179, 179);
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+}
+
+.languageSelector {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    box-shadow: 0px 0px 2px rgba(179, 179, 179, 0.705);
+    width: 11%;
+    padding: 0.8rem;
+    margin-top: 1.6rem;
+}
+
+.fa-globe {
+    color: rgb(179, 179, 179);
+}
+
+select {
+    font-size: 0.75rem;
+    background-color: black;
+    color: rgb(179, 179, 179);
+    border: none;
 }
 
 footer p {
