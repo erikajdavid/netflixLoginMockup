@@ -17,13 +17,19 @@ html {
 
 body {
     margin: 0;
-    background-image: url(../assets/netflixBackground2023.jpeg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+    position: relative;
 }
 
-
+.backgroundImage {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    filter: brightness(0.5);
+    position: absolute;
+    z-index: -1;
+}
 
 //reuseable styles//
 
@@ -35,6 +41,8 @@ body {
 
 ul {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 h1,
@@ -64,12 +72,11 @@ section {
 //FORM STYLING//
 
 .loginContainer {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
     max-width: 420px;
     max-height: 660px;
     padding: 3.7rem 4.25rem;
     border-radius: 4px;
-    margin-bottom: 20vh;
 }
 
 h1 {
@@ -141,7 +148,8 @@ fieldset {
 //FOOTER STYLING//
 
 footer {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.8);
+    font-weight: lighter;
 }
 
 footer .wrapper {
@@ -151,5 +159,21 @@ footer .wrapper {
 footer nav ul {
     display: flex;
     flex-wrap: wrap;
+}
+
+footer li {
     width: 25%;
+    padding: 0.5rem 0;
+    align-self: flex-start;
+
+}
+
+footer a {
+    color: rgb(179, 179, 179);
+    font-size: 0.9rem;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.8rem;
 }
