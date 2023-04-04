@@ -6,6 +6,13 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 .sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
 
+//LEFT TO DO 
+    //scale image but make sure there are no top padding issues when opened with chrome.
+    //research and apply FA check mark for custom checkbox.
+    //research and apply how on click css effect for checkbox.
+    //research and apply spacing between language and drop down arrow in select form in footer. 
+    //clean up SCSS and create partials when finished.
+
 //variables//
 
 $primaryColor: rgba(179, 179, 179, 0.65);
