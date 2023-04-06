@@ -16,7 +16,8 @@ The objective of this project is to clone the Netlix* login page from a frontend
 
 ## To improve: 
 
-- REVISIT background image placement and nesting.
+- Revisit background image placement and nesting.
+- Revisit Netflix logo placement/padding. 
 - Adapt design for tablet and mobile views.
 - Update checkmark for checkbox to look as close to the original as possible. 
 - Use more variables. 
