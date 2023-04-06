@@ -10,7 +10,6 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
     //scale image but make sure there are no top padding issues when opened with chrome.
     //research and apply FA check mark for custom checkbox.
     //research and apply how on click css effect for checkbox.
-    //research and apply spacing between language and drop down arrow in select form in footer. 
     //clean up SCSS and create partials when finished.
 
 //variables//
@@ -69,16 +68,6 @@ a {
     z-index: -1;
     overflow-y: hidden;
     overflow-x: hidden;
-
-}
-
-.backgroundImage img {
-    width: 100%;
-    height: 100%;
-    transform: scale(1.1);
-    padding-top: 2%;
-    padding-left: 4%;
-    object-fit: cover;
 }
 
 //HEADER STYLING//
@@ -125,6 +114,7 @@ input[type=text] {
     margin-bottom: 0.9rem;
     padding-left: 1.25rem;
     background-color: rgb(51, 51, 51);
+    color: white;
 }
 
 button {
@@ -163,15 +153,19 @@ input[type=checkbox] {
     width: 1.05rem;
     height: 1.05rem;
     background-color: white;
-    border: 1px solid $primaryColor;
     margin-right: 0.3rem;
     border-radius: 4px;
 }
 
 input[type=checkbox]:checked::before {
-    content:'√';
+    content:'\2713';
     color: black;
+    font-size: 1rem;
+    text-align: center;
     display: block;
+    height: 100%;
+    background-color: rgb(179, 179, 179);
+    border-radius: 4px;
 }
 
 .bottomContainer {
@@ -238,7 +232,7 @@ footer a {
     align-items: center;
     background-color: black;
     box-shadow: 0px 0px 2px rgba(179, 179, 179, 0.705);
-    width: 11%;
+    width: 12%;
     padding: 0.8rem;
     margin-top: 1.6rem;
 }
