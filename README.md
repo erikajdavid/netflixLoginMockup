@@ -12,7 +12,7 @@ The objective of this project is to clone the Netlix* login page from a frontend
 
 ### The result: 
 
-![](./assets/netflixSignUpFormClone.png)
+![](./assets/netflixLoginClone.png)
 
 ## To improve: 
 
