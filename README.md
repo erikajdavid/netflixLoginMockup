@@ -8,11 +8,11 @@ The objective of this project is to clone the Netlix* login page from a frontend
 
 ### The April 2023 desktop design: 
 
-![](./assets/netflixSignUpForm.png)
+![](./assets/netflixSignUpFormOriginal.png)
 
 ### The result: 
 
-![](./assets/netflixSignUpFormMockup.png)
+![](./assets/netflixSignUpFormClone.png)
 
 ## To improve: 
 
