@@ -2,7 +2,9 @@
 
 ## Objective
 
-The objective of this project is to clone the Netlix login page from a frontend stanpoint using HTML and CSS. Desktop view only. 
+The objective of this project is to clone the Netlix* login page from a frontend stanpoint using HTML and CSS. Desktop view only (for now)
+
+*This project is for educational purposes only. Netflix maintains the right to all. 
 
 ### The April 2023 desktop design: 
 
